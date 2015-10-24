@@ -1,2 +1,3 @@
 # Cookie Jar
-The Biscuit Framework
+The Biscuit Framework 
+with modules

@@ -1,2 +1,2 @@
-# cookie-jar
+# Cookie Jar
 The Biscuit Framework

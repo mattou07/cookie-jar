@@ -1,3 +1,6 @@
 <?php
 
-require_once 'require/routes.php';
+use WiseBiscuit\CookieJar\Utils as Utils;
+
+$var = 'Testing';
+Utils::dump($var);

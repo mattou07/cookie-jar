@@ -3,9 +3,10 @@
 namespace WiseBiscuit\CookieJar;
 
 /**
- * Class Routes
+ * Class Mail
  * @package WiseBiscuit\CookieJar
  */
-class Routes
+class Mail
 {
+
 }

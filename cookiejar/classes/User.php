@@ -23,36 +23,27 @@ class User {
     public $username;
 
     /**
-     * @var string
-     */
-    public $name;
-
-    /**
-     * @var string
-     */
-
-    public $surname;
-
-    /**
      * @var int
      */
 
     private $user_level;
 
     /**
+     * @param Profile
+     */
+
+    private $profile;
+
+    /**
      * @param int $id
      * @param string $username
-     * @param string $name
-     * @param string $surname
      * @param int $user_level
      */
 
-    public function __construct($id, $username, $name, $surname, $user_level= User::ACCOUNT_USER)
+    public function __construct($id, $username, $user_level= User::ACCOUNT_GUEST)
     {
         $this ->id = $id;
         $this ->username = $username;
-        $this ->name = $name;
-        $this ->surnname = $surnname;
         $this ->user_level = $user_level;
 
     }

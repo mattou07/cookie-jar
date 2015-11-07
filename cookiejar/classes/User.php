@@ -29,7 +29,7 @@ class User {
     private $user_level;
 
     /**
-     * @param Profile
+     * @var Profile
      */
 
     private $profile;
